@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[lauching browser]]>
+    </line>
+    <line>
+      <![CDATA[waiting...]]>
+    </line>
+    <line>
+      <![CDATA[Age is Selected]]>
+    </line>
+    <line>
+      <![CDATA[clickOnContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[nullTC execution started]]>
+    </line>
+    <line>
+      <![CDATA[TCChecksortPlan is failed]]>
+    </line>
+    <line>
+      <![CDATA[nullTC execution started]]>
+    </line>
+    <line>
+      <![CDATA[TCvalidationBanners is failed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-09T20:39:31 IST" name="Default suite" finished-at="2024-08-09T20:40:00 IST" duration-ms="29253">
+    <groups>
+    </groups>
+    <test started-at="2024-08-09T20:39:31 IST" name="Default test" finished-at="2024-08-09T20:40:00 IST" duration-ms="29253">
+      <class name="coverFoxTest.CoverFoxListener">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CoverFoxListener@7494f96a]" started-at="2024-08-09T20:39:31 IST" name="launchBrowser" finished-at="2024-08-09T20:39:34 IST" duration-ms="3364" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[lauching browser]]>
+            </line>
+            <line>
+              <![CDATA[waiting...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="preconditions()[pri:0, instance:coverFoxTest.CoverFoxListener@7494f96a]" started-at="2024-08-09T20:39:34 IST" name="preconditions" finished-at="2024-08-09T20:39:51 IST" duration-ms="16885" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Age is Selected]]>
+            </line>
+            <line>
+              <![CDATA[clickOnContinueButton]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preconditions -->
+        <test-method signature="ChecksortPlan()[pri:0, instance:coverFoxTest.CoverFoxListener@7494f96a]" started-at="2024-08-09T20:39:51 IST" name="ChecksortPlan" finished-at="2024-08-09T20:39:55 IST" duration-ms="4130" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Sort plan Dropdown is not display,TC is fail] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Sort plan Dropdown is not display,TC is fail] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:644)
+at coverFoxTest.CoverFoxListener.ChecksortPlan(CoverFoxListener.java:90)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[nullTC execution started]]>
+            </line>
+            <line>
+              <![CDATA[TCChecksortPlan is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ChecksortPlan -->
+        <test-method signature="validationBanners()[pri:0, instance:coverFoxTest.CoverFoxListener@7494f96a]" started-at="2024-08-09T20:39:55 IST" name="validationBanners" finished-at="2024-08-09T20:39:59 IST" duration-ms="4019" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at coverFoxTest.CoverFoxListener.validationBanners(CoverFoxListener.java:79)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[nullTC execution started]]>
+            </line>
+            <line>
+              <![CDATA[TCvalidationBanners is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validationBanners -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:coverFoxTest.CoverFoxListener@7494f96a]" started-at="2024-08-09T20:40:00 IST" name="CloseBrowser" finished-at="2024-08-09T20:40:00 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- coverFoxTest.CoverFoxListener -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
